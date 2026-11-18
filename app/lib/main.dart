@@ -5,7 +5,7 @@ import 'datos/negocios_api.dart';
 import 'presentacion/negocios_viewmodel.dart';
 import 'presentacion/pantalla_negocios.dart';
 
-const urlApi = 'http://192.168.1.101:3000';
+const urlApi = 'http://10.31.4.196:3000';
 
 void main() {
   final api = NegociosApi(http.Client(), urlApi);
